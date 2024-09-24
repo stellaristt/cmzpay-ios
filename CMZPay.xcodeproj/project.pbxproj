@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110F0E792CA4BBDA005F760A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F0E782CA4BBDA005F760A /* RegisterView.swift */; };
+		11474A1F2CA31AB3008E95C9 /* CMZPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A1E2CA31AB3008E95C9 /* CMZPayApp.swift */; };
+		11474A212CA31AB3008E95C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A202CA31AB3008E95C9 /* ContentView.swift */; };
+		11474A232CA31AB3008E95C9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A222CA31AB3008E95C9 /* Item.swift */; };
+		11474A252CA31AB5008E95C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11474A242CA31AB5008E95C9 /* Assets.xcassets */; };
+		11474A282CA31AB5008E95C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11474A272CA31AB5008E95C9 /* Preview Assets.xcassets */; };
+		11474A322CA31AB6008E95C9 /* CMZPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A312CA31AB6008E95C9 /* CMZPayTests.swift */; };
+		11474A3C2CA31AB6008E95C9 /* CMZPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A3B2CA31AB6008E95C9 /* CMZPayUITests.swift */; };
+		11474A3E2CA31AB6008E95C9 /* CMZPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A3D2CA31AB6008E95C9 /* CMZPayUITestsLaunchTests.swift */; };
+		11474A4F2CA31D48008E95C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11474A4E2CA31D48008E95C9 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11474A2E2CA31AB6008E95C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11474A132CA31AB3008E95C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11474A1A2CA31AB3008E95C9;
+			remoteInfo = CMZPay;
+		};
+		11474A382CA31AB6008E95C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11474A132CA31AB3008E95C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11474A1A2CA31AB3008E95C9;
+			remoteInfo = CMZPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110F0E782CA4BBDA005F760A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		11474A1B2CA31AB3008E95C9 /* CMZPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMZPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11474A1E2CA31AB3008E95C9 /* CMZPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMZPayApp.swift; sourceTree = "<group>"; };
+		11474A202CA31AB3008E95C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11474A222CA31AB3008E95C9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		11474A242CA31AB5008E95C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11474A272CA31AB5008E95C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11474A2D2CA31AB6008E95C9 /* CMZPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMZPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11474A312CA31AB6008E95C9 /* CMZPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMZPayTests.swift; sourceTree = "<group>"; };
+		11474A372CA31AB6008E95C9 /* CMZPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMZPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11474A3B2CA31AB6008E95C9 /* CMZPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMZPayUITests.swift; sourceTree = "<group>"; };
+		11474A3D2CA31AB6008E95C9 /* CMZPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMZPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11474A4E2CA31D48008E95C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11474A182CA31AB3008E95C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11474A2A2CA31AB6008E95C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11474A342CA31AB6008E95C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11474A122CA31AB3008E95C9 = {
+			isa = PBXGroup;
+			children = (
+				11474A1D2CA31AB3008E95C9 /* CMZPay */,
+				11474A302CA31AB6008E95C9 /* CMZPayTests */,
+				11474A3A2CA31AB6008E95C9 /* CMZPayUITests */,
+				11474A1C2CA31AB3008E95C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11474A1C2CA31AB3008E95C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11474A1B2CA31AB3008E95C9 /* CMZPay.app */,
+				11474A2D2CA31AB6008E95C9 /* CMZPayTests.xctest */,
+				11474A372CA31AB6008E95C9 /* CMZPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11474A1D2CA31AB3008E95C9 /* CMZPay */ = {
+			isa = PBXGroup;
+			children = (
+				11474A4D2CA31C67008E95C9 /* Services */,
+				11474A4C2CA31C61008E95C9 /* Views */,
+				11474A4B2CA31C57008E95C9 /* ViewModels */,
+				11474A4A2CA31C3C008E95C9 /* Models */,
+				11474A1E2CA31AB3008E95C9 /* CMZPayApp.swift */,
+				11474A202CA31AB3008E95C9 /* ContentView.swift */,
+				11474A222CA31AB3008E95C9 /* Item.swift */,
+				11474A242CA31AB5008E95C9 /* Assets.xcassets */,
+				11474A262CA31AB5008E95C9 /* Preview Content */,
+			);
+			path = CMZPay;
+			sourceTree = "<group>";
+		};
+		11474A262CA31AB5008E95C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11474A272CA31AB5008E95C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11474A302CA31AB6008E95C9 /* CMZPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				11474A312CA31AB6008E95C9 /* CMZPayTests.swift */,
+			);
+			path = CMZPayTests;
+			sourceTree = "<group>";
+		};
+		11474A3A2CA31AB6008E95C9 /* CMZPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11474A3B2CA31AB6008E95C9 /* CMZPayUITests.swift */,
+				11474A3D2CA31AB6008E95C9 /* CMZPayUITestsLaunchTests.swift */,
+			);
+			path = CMZPayUITests;
+			sourceTree = "<group>";
+		};
+		11474A4A2CA31C3C008E95C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11474A4B2CA31C57008E95C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11474A4C2CA31C61008E95C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11474A4E2CA31D48008E95C9 /* LoginView.swift */,
+				110F0E782CA4BBDA005F760A /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11474A4D2CA31C67008E95C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11474A1A2CA31AB3008E95C9 /* CMZPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11474A412CA31AB6008E95C9 /* Build configuration list for PBXNativeTarget "CMZPay" */;
+			buildPhases = (
+				11474A172CA31AB3008E95C9 /* Sources */,
+				11474A182CA31AB3008E95C9 /* Frameworks */,
+				11474A192CA31AB3008E95C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMZPay;
+			productName = CMZPay;
+			productReference = 11474A1B2CA31AB3008E95C9 /* CMZPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11474A2C2CA31AB6008E95C9 /* CMZPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11474A442CA31AB6008E95C9 /* Build configuration list for PBXNativeTarget "CMZPayTests" */;
+			buildPhases = (
+				11474A292CA31AB6008E95C9 /* Sources */,
+				11474A2A2CA31AB6008E95C9 /* Frameworks */,
+				11474A2B2CA31AB6008E95C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11474A2F2CA31AB6008E95C9 /* PBXTargetDependency */,
+			);
+			name = CMZPayTests;
+			productName = CMZPayTests;
+			productReference = 11474A2D2CA31AB6008E95C9 /* CMZPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11474A362CA31AB6008E95C9 /* CMZPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11474A472CA31AB6008E95C9 /* Build configuration list for PBXNativeTarget "CMZPayUITests" */;
+			buildPhases = (
+				11474A332CA31AB6008E95C9 /* Sources */,
+				11474A342CA31AB6008E95C9 /* Frameworks */,
+				11474A352CA31AB6008E95C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11474A392CA31AB6008E95C9 /* PBXTargetDependency */,
+			);
+			name = CMZPayUITests;
+			productName = CMZPayUITests;
+			productReference = 11474A372CA31AB6008E95C9 /* CMZPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11474A132CA31AB3008E95C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					11474A1A2CA31AB3008E95C9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					11474A2C2CA31AB6008E95C9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 11474A1A2CA31AB3008E95C9;
+					};
+					11474A362CA31AB6008E95C9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 11474A1A2CA31AB3008E95C9;
+					};
+				};
+			};
+			buildConfigurationList = 11474A162CA31AB3008E95C9 /* Build configuration list for PBXProject "CMZPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11474A122CA31AB3008E95C9;
+			productRefGroup = 11474A1C2CA31AB3008E95C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11474A1A2CA31AB3008E95C9 /* CMZPay */,
+				11474A2C2CA31AB6008E95C9 /* CMZPayTests */,
+				11474A362CA31AB6008E95C9 /* CMZPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11474A192CA31AB3008E95C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11474A282CA31AB5008E95C9 /* Preview Assets.xcassets in Resources */,
+				11474A252CA31AB5008E95C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11474A2B2CA31AB6008E95C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11474A352CA31AB6008E95C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11474A172CA31AB3008E95C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11474A212CA31AB3008E95C9 /* ContentView.swift in Sources */,
+				110F0E792CA4BBDA005F760A /* RegisterView.swift in Sources */,
+				11474A232CA31AB3008E95C9 /* Item.swift in Sources */,
+				11474A4F2CA31D48008E95C9 /* LoginView.swift in Sources */,
+				11474A1F2CA31AB3008E95C9 /* CMZPayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11474A292CA31AB6008E95C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11474A322CA31AB6008E95C9 /* CMZPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11474A332CA31AB6008E95C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11474A3E2CA31AB6008E95C9 /* CMZPayUITestsLaunchTests.swift in Sources */,
+				11474A3C2CA31AB6008E95C9 /* CMZPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11474A2F2CA31AB6008E95C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11474A1A2CA31AB3008E95C9 /* CMZPay */;
+			targetProxy = 11474A2E2CA31AB6008E95C9 /* PBXContainerItemProxy */;
+		};
+		11474A392CA31AB6008E95C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11474A1A2CA31AB3008E95C9 /* CMZPay */;
+			targetProxy = 11474A382CA31AB6008E95C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11474A3F2CA31AB6008E95C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11474A402CA31AB6008E95C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11474A422CA31AB6008E95C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CMZPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stellar.CMZPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11474A432CA31AB6008E95C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CMZPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stellar.CMZPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11474A452CA31AB6008E95C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stellar.CMZPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMZPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CMZPay";
+			};
+			name = Debug;
+		};
+		11474A462CA31AB6008E95C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stellar.CMZPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMZPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CMZPay";
+			};
+			name = Release;
+		};
+		11474A482CA31AB6008E95C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stellar.CMZPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CMZPay;
+			};
+			name = Debug;
+		};
+		11474A492CA31AB6008E95C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stellar.CMZPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CMZPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11474A162CA31AB3008E95C9 /* Build configuration list for PBXProject "CMZPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11474A3F2CA31AB6008E95C9 /* Debug */,
+				11474A402CA31AB6008E95C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11474A412CA31AB6008E95C9 /* Build configuration list for PBXNativeTarget "CMZPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11474A422CA31AB6008E95C9 /* Debug */,
+				11474A432CA31AB6008E95C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11474A442CA31AB6008E95C9 /* Build configuration list for PBXNativeTarget "CMZPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11474A452CA31AB6008E95C9 /* Debug */,
+				11474A462CA31AB6008E95C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11474A472CA31AB6008E95C9 /* Build configuration list for PBXNativeTarget "CMZPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11474A482CA31AB6008E95C9 /* Debug */,
+				11474A492CA31AB6008E95C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11474A132CA31AB3008E95C9 /* Project object */;
+}
